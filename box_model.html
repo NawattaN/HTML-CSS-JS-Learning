@@ -13,6 +13,12 @@
     }
     .Pagination1, .Pagination2, .Pagination3, .Pagination4, .Pagination5 {
         padding: 8px;
+        cursor: pointer;
+    }
+    .Pagination1:hover, .Pagination2:hover, .Pagination3:hover, .Pagination4:hover, .Pagination5:hover {
+        background-color: lightgray;
+        text-decoration: underline;
+        transition: background-color 0.3s, text-decoration 0.3s;
     }
     .Stretch {
         padding: 10px 16px;
@@ -36,6 +42,7 @@
     .Shadow:active {
         margin: 3px;
         box-shadow: none;
+        transition: margin 0.1s, box-shadow 0.1s;
     }    
 </style>
 
