@@ -1,63 +1,25 @@
-<style>
-    div {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .PaginationContainer {
-        display: flex;;
-        align-items: center;
-    }
-    .PaginationBack, .PaginationNext {
-        padding: 10px;
-        margin: 10px;
-    }
-    .Pagination1, .Pagination2, .Pagination3, .Pagination4, .Pagination5 {
-        padding: 8px;
-        cursor: pointer;
-    }
-    .Pagination1:hover, .Pagination2:hover, .Pagination3:hover, .Pagination4:hover, .Pagination5:hover {
-        background-color: lightgray;
-        text-decoration: underline;
-        transition: background-color 0.3s, text-decoration 0.3s;
-    }
-    .Stretch {
-        padding: 10px 16px;
-        border-style: none;
-        color: white;
-        background-color: green;
-        transition: padding 0.5s;
-        cursor: pointer;
-    }
-    .Stretch:hover {
-        padding: 20px 32px;
-    }
-    .Shadow {
-        padding: 10px 16px;
-        border-style: none;
-        color: white;
-        background-color: green;
-        cursor: pointer;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.40);
-    }
-    .Shadow:active {
-        margin: 3px;
-        box-shadow: none;
-        transition: margin 0.1s, box-shadow 0.1s;
-    }    
-</style>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model Learning</title>
+        <link rel="stylesheet" href="styles/box_model.css">
+    </head>
+    <body>
+        <div class="PaginationContainer">
+            <button class= PaginationBack>Back</button>
+            <p class="Pagination1">1</p>
+            <p class="Pagination2">2</p>
+            <p class="Pagination3">3</p>
+            <p class="Pagination4">4</p>
+            <p class="Pagination5">5</p>
+            <button class=PaginationNext>Next</button>
+        </div>
+        <div>
+            <button class="Stretch">Stretch</button>
+        </div>
+        <div>
+            <button class="Shadow">Shadow</button>
+        </div>
+    </body>
+</html>
 
-<div class="PaginationContainer">
-    <button class= PaginationBack>Back</button>
-    <p class="Pagination1">1</p>
-    <p class="Pagination2">2</p>
-    <p class="Pagination3">3</p>
-    <p class="Pagination4">4</p>
-    <p class="Pagination5">5</p>
-    <button class=PaginationNext>Next</button>
-</div>
-<div>
-    <button class="Stretch">Stretch</button>
-</div>
-<div>
-    <button class="Shadow">Shadow</button>
-</div>
