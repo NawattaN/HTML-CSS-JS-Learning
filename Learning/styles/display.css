@@ -1,0 +1,27 @@
+.a1,
+.a2 {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.b1 {
+  display: inline-block;
+  margin-right: 10px;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.c1 {
+  width: 200px;
+  display: block;
+  margin-left: 115px;
+  margin-bottom: 10px;
+}
+.c2 {
+  width: 400px;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
