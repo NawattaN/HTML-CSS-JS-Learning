@@ -1,0 +1,146 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  margin-bottom: 20px;
+}
+.a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.b {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 100px;
+}
+.c {
+  display: inline-block;
+  width: 300px;
+  height: 90px;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 10px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.d {
+  width: 380px;
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding-top: 1px;
+  padding-left: 10px;
+}
+.d1 {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;;
+  margin-bottom: 0px;
+}
+.d2 {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.gi {
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.gt {
+  vertical-align: middle;
+  border-style: none;
+  width: 200px;
+  height: 50px;
+}
+.gb {
+  border-style: none;
+  background-color: rgb(24, 162, 226);
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.e {
+  width: 350px;
+  border-style: none;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.f {
+  display: block;
+  width: 200px;
+  height: 335px;
+  border-style: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.p-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.p-name {
+  font-size: large;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+.p-mutual-friends {
+  margin-top: 5px;
+  padding-left: 10px;
+  opacity: 0.7;
+}
+.add {
+  margin-left: 10px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: #317dee;
+  border-style: none;
+  border-radius: 5px;
+  font-size: medium;
+}
+.g {
+  display: inline-block;
+  width: 200px;
+  height: 335px;
+  border-style: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
+}
+.c1 {
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.c2 {
+  width: 400px;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.c3 {
+  width: 120px;
+  height: 30px;
+  margin-right: 10px;
+  border-style: none;
+}
+.c4 {
+  width: 120px;
+  height: 30px;
+  border-style: none;
+}
+.h {
+  text-align: center;
+  margin-bottom: 0px;
+}
