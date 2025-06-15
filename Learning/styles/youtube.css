@@ -8,30 +8,19 @@ p {
     display: block;
     margin-bottom: 10px;
 }
-.video-preview {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-    width: 300px;
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
 }
 .video-thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 }
-
 .video-author {
     color: rgb(96, 96, 96);
     font-size: 14px;
     margin-bottom: 5px;
-}
-.channel-pic {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
-.video-info {
-    display: inline-block;
-    width: 200px;
 }
 .channel-logo{
     width: 40px;
@@ -48,5 +37,8 @@ p {
 .video-stat {
     color: rgb(96, 96, 96);
     font-size: 14px;
-    margin-bottom: 5px;
+}
+.video-info-grid {
+    display : grid;
+    grid-template-columns: 50px 1fr;
 }
