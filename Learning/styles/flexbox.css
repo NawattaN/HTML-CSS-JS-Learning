@@ -1,0 +1,160 @@
+p {
+  margin: 0;
+}
+div {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.section-blue {
+  background-color: lightblue;
+}
+.section-pink {
+  background-color: lightpink;
+}
+.flexbox-c {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.flexbox-d {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.flexbox-e,
+.box {
+  display: flex;
+}
+
+.flexbox-e {
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 300px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  padding-top: 8px;
+  margin-bottom: 40px;
+}
+.container-e {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.box {
+  justify-content: space-between;
+}
+.noti {
+  background-color: rgba(64, 119, 254, 255);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 15px;
+}
+.flexbox-f {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(108, 79, 166, 255);
+  margin-bottom: 20px;
+}
+.left-section {
+  width: 100px;
+  color: white;
+  font-weight: bold;
+}
+.right-section {
+  width: 90px;
+  min-width: 80px;
+}
+.download {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(108, 79, 166, 255);
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  padding: 8px;
+}
+.middle-section {
+  flex: 1;
+  margin-left: 200px;
+  margin-right: 200px;
+  max-width: 400px;
+  min-width: 60px;
+}
+.search-bar {
+  padding: 6px;
+  padding-left: 20px;
+  width: 100%;
+  border-radius: 20px;
+  border-style: none;
+}
+.home {
+  padding-left: 10px;
+}
+
+.flexbox-g {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50px 1fr 60px;
+  align-items: center;
+}
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.profile-name,
+.bio {
+  font-size: 14px;
+}
+.bio,
+.status {
+  color: gray;
+}
+.profile-name {
+  font-weight: bold;
+}
+.status {
+  font-size: 12px;
+}
+.follow-button {
+  background-color: rgba(64, 119, 254, 255);
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 14px;
+}
