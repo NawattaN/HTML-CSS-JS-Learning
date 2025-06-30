@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sender,
+.title,
+.time,
+.content {
+    margin: 0;
+    line-height: 25px;
+}
+
+.sender,
+.title {
+    font-weight: bold;
+}
+.sender {
+    font-size: 18px;
+}
+
+.title {
+    font-size: 16px;
+}
+.time,
+.content {
+    color: gray;
+    font-size: 16px;
+}

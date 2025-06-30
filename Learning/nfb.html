@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nested Flexbox Exercise</title>
+    <link rel="stylesheet" href="styles/nfb.css">
+</head>
+
+<body>
+    <div class="flexbox" style="display: flex; margin-bottom: 20px;">
+        <div class="left-section"
+            style="display: flex; justify-content: center; width: 100px; background-color: lightpink;">
+            <p style="background-color: black; color: white;">item1</p>
+        </div>
+        <div class="right-section" style="width: 200px; background-color: lightblue;">
+        </div>
+    </div>
+
+    <div class="flexbox" style="display: flex; margin-bottom: 20px;">
+        <div class="left-section"
+            style="display: flex; justify-content: center; width: 100px; background-color: lightpink;">
+        </div>
+        <div class="right-section"
+            style="display: flex; width: 200px; background-color: lightblue; justify-content: space-between;">
+            <div style="display: flex; flex-direction: column;">
+                <p style="margin: 0;">row1</p>
+                <p style="margin-top: 0px; background-color: black; color: white;">row2</p>
+            </div>
+            <div style="display: flex;">
+                <p style="background-color: black; color: white;">row2</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="inbox"
+        style="display: flex; flex-direction: column; width: 460px; border-radius: 5px; box-shadow: 0px 0px 2px rgba(0, 0, 0, .5); padding-bottom: 30px; margin-bottom: 20px;">
+        <div class="header"
+            style="display:flex; height: 50px; align-items: center; padding-left: 20px; font-size: 16px; color: rgb(99, 99, 99);">
+            ALL INBOXES</div>
+        <div class="inbox" style="display: flex; flex-direction: column; row-gap: 20px;">
+            <div class="message"
+                style="display: flex; flex: 1; padding-left: 20px; align-items: center; height: 80px; padding-right: 20px;">
+                <div class="profile-block" style="display: flex; width: 70px; align-items: center;">
+                    <img src="../img/profile_pic/channel-1.jpeg" style="width: 60px; border-radius: 30px;">
+                </div>
+                <div class="info" style="flex: 1;">
+                    <div class="sender-and-time" style="display: flex; justify-content: space-between;">
+                        <p class="sender">Chewy Promotions</p>
+                        <p class="time">4:58 PM</p>
+                    </div>
+                    <p class="title">Biggest sales of the year!</p>
+                    <p class="content">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+
+            <div class="message"
+                style="display: flex; flex: 1; padding-left: 20px; align-items: center; height: 80px; padding-right: 20px;">
+                <div class="profile-block" style="display: flex; width: 70px; align-items: center;">
+                    <img src="../img/profile_pic/channel-2.jpeg" style="width: 60px; border-radius: 30px;">
+                </div>
+                <div class="info" style="flex: 1;">
+                    <div class="sender-and-time" style="display: flex; justify-content: space-between;">
+                        <p class="sender">Best Buy</p>
+                        <p class="time">12:32 PM</p>
+                    </div>
+                    <p class="title">Your Best Buy eReceipt</p>
+                    <p class="content">Thank you for shopping at Best Buy, here is...</p>
+                </div>
+            </div>
+
+            <div class="message"
+                style="display: flex; flex: 1; padding-left: 20px; align-items: center; height: 80px; padding-right: 20px;">
+                <div class="profile-block" style="display: flex; width: 70px; align-items: center;">
+                    <img src="../img/profile_pic/channel-3.jpeg" style="width: 60px; border-radius: 30px;">
+                </div>
+                <div class="info" style="flex: 1;">
+                    <div class="sender-and-time" style="display: flex; justify-content: space-between;">
+                        <p class="sender">Netflix</p>
+                        <p class="time">9:00 AM</p>
+                    </div>
+                    <p class="title">Here's what's comimg soon to Netflix</p>
+                    <p class="content">Brand new movies and shows, old favorites...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="twitter-post"
+        style="display: flex; width: 420px; box-shadow: 0px 0px 1px rgb(99, 99, 99); padding-left: 15px; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; vertical-align: top;">
+        <div class="profile-section" style="width: 70px;">
+            <img src="../img/profile_pic/channel-1.jpeg" style="width: 60px; border-radius: 30px;">
+        </div>
+        <div class="details" style="display: flex; flex: 1; flex-direction: column; line-height: 24px; font-size: 16px;">
+            <div class="account-section">
+                <p class="acount-name" style="display: inline-block; margin: 0; font-weight: bold;">supersimple.dev</p>
+                <p class="acount-add" style="display: inline-block; margin: 0; color: gray;">@SuperSimpleDev</p>
+            </div>
+            <div class="content-section" style="margin-bottom: 10px;">
+                <p style="margin: 0;">What is backend web development? A complete overview. New video is up!</p>
+            </div>
+            <div class="link-section" style="display: flex; height: 100px; border-color: rgb(173, 173, 173); border-style: solid; border-width: 1px; border-radius: 20px; align-items: center;">
+                <div class="link-img" style="width: 100px; height: 100px; background-color: rgb(173, 173, 173); border-top-left-radius: 20px; border-bottom-left-radius: 20px;"></div>
+                <div class="link-details" style="flex: 1; margin-left: 10px; line-height: 24px;">
+                    <p style="margin: 0; color: rgb(107, 107, 107);">youtube.com</p>
+                    <p style="margin: 0;">Backend web development - a complete overview (2021)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
