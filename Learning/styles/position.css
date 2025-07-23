@@ -1,0 +1,205 @@
+body {
+    height: 3000px;
+}
+
+p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+}
+
+.b {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+
+.c {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: BLACK;
+}
+
+.backgound-opacity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+}
+
+.modal-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.modal-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8  0px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.message-button {
+    background-color: rgb(219, 219, 219);
+    border-style: none;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.add-friend-button {
+    background-color: rgb(71, 122, 216);
+    border-style: none;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: white;
+}
+
+.first-section {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    background-color: rgb(41, 41, 41);
+}
+
+.channel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    row-gap: 10px;
+}
+
+.channel-pic {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.second-section {
+    position: fixed;
+    top: 0px;
+    left: 90px;
+    bottom: 0px;
+    background-color: rgb(59, 59, 59);
+    width: 270px;
+}
+
+.sub-channel {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(199, 199, 199);
+}
+
+.title-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: 700;
+    color: white;
+}
+
+.plus {
+    font-size: 34px;
+}
+
+.name-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    font-size: 18px;
+}
+
+.hashtag {
+    margin-right: 10px;
+}
