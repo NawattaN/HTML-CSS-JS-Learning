@@ -1,9 +1,18 @@
 .header {
   display: flex;
   flex-direction: row;
-  height: 57px;
+  height: 55px;
   justify-content: space-between;
   margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgb(204, 204, 204);
+
 }
 
 .left-section {
