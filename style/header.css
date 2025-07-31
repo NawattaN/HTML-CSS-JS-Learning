@@ -12,7 +12,7 @@
   border-width: 1px;
   border-bottom-style: solid;
   border-color: rgb(204, 204, 204);
-
+  z-index: 100;
 }
 
 .left-section {
@@ -107,4 +107,21 @@
 .my-profile {
   height: 32px;
   border-radius: 16px;
+}
+
+.notifications {
+  position: relative;
+  display: flex;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -1px;
+  right: -5px;
+  padding: 2px 5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
