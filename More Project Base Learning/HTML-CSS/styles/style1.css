@@ -90,6 +90,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 45px;
+    row-gap: 45px;
+    margin-bottom: 100px;
 }
 
 .articles-container {
