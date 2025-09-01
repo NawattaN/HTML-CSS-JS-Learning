@@ -155,6 +155,7 @@ body {
     font-size: 32px;
     font-style: italic;
     line-height: 20px;
+    margin-bottom: 150px;
 }
 
 .decoration {
@@ -166,3 +167,30 @@ body {
     color: #ff7474;
     column-gap: 0px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.left-footer {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    column-gap: 20px;
+}
+
+.creater-button,
+.twitter-button {
+    background-color: #408ee7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
