@@ -91,7 +91,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 45px;
     row-gap: 45px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .articles-container {
@@ -145,4 +145,24 @@ body {
 
 .middot {
     font-size: 30px;
+}   
+
+.navigate-number {
+    display: flex;
+    justify-content: center;
+    column-gap: 55px;
+    color: #89898a;
+    font-size: 32px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.decoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border-top: #ff7474 solid 3px;
+    color: #ff7474;
+    column-gap: 0px;
 }
