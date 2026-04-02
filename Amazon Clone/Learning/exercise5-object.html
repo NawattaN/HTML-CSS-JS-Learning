@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      const product = {
+        name: "basketball",
+        price: 2095,
+      };
+      console.log(product);
+
+      product.price += 500;
+      console.log(product);
+
+      product["delivery-time"] = "3 days";
+      console.log(product);
+
+      function comparePrice(product1, product2) {
+        return product1.price < product2.price ? product1 : product2;
+      }
+      const product1 = {
+        name: "football",
+        price: 1995,
+      };
+      const product2 = {
+        name: "basketball",
+        price: 2595,
+      };
+      console.log(comparePrice(product1, product2));
+
+      function isSameProduct(product1, product2) {
+        return product1.name === product2.name &&
+          product1.price === product2.price
+          ? true
+          : false;
+      }
+      console.log(isSameProduct(product1, product2));
+      console.log(isSameProduct(product1, product1));
+
+      console.log("Good Morning".toLowerCase());
+
+      console.log("test".repeat(2));
+
+      let calculation = localStorage.getItem("cal") || "";
+      console.log(calculation);
+    </script>
+  </head>
+  <body>
+    <p>Calculator</p>
+
+    <p>
+      <button
+        onclick="
+          calculation += '1';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        1
+      </button>
+      <button
+        onclick="
+          calculation += '2';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        2
+      </button>
+      <button
+        onclick="
+          calculation += '3';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        3
+      </button>
+      <button
+        onclick="
+          calculation += ' + ';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        +
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+          calculation += '4';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        4
+      </button>
+      <button
+        onclick="
+          calculation += '5';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        5
+      </button>
+      <button
+        onclick="
+          calculation += '6';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        6
+      </button>
+      <button
+        onclick="
+          calculation += ' - ';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        -
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+          calculation += '7';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        7
+      </button>
+      <button
+        onclick="
+          calculation += '8';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        8
+      </button>
+      <button
+        onclick="
+          calculation += '9';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        9
+      </button>
+      <button
+        onclick="
+          calculation += ' * ';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        *
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+          calculation += '0';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        0
+      </button>
+      <button
+        onclick="
+          calculation += '.';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        .
+      </button>
+      <button
+        onclick="
+          calculation = eval(calculation);
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        =
+      </button>
+      <button
+        onclick="
+          calculation += ' / ';
+          console.log(calculation);
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        /
+      </button>
+    </p>
+
+    <p>
+      <button
+        onclick="
+          calculation = '';
+          console.log('Cleared.');
+          localStorage.setItem('cal', calculation);
+        "
+      >
+        Clear
+      </button>
+    </p>
+  </body>
+</html>
