@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Exercise</title>
+  </head>
+
+  <body>
+    <button>9a</button>
+    <button class="btn9b">9b</button>
+    <br />
+    <br />
+    <button onclick="displaySelected('heads')">heads</button>
+    <button onclick="displaySelected('tails')">tails</button>
+    <p class="displaySelected"></p>
+    <br />
+    <input
+      type="text"
+      class="inputText"
+      placeholder="Name"
+      onkeydown="if (event.key === 'Enter') displayText();"
+    />
+    <button onclick="displayText()">submit</button>
+    <p class="displayText"></p>
+    <script>
+      const btn9a = document.querySelector("button");
+      console.log(btn9a);
+
+      const btn9b = document.querySelector(".btn9b");
+      btn9b.innerText = "9b done!";
+
+      function displaySelected(selected) {
+        const displaySection = document.querySelector(".displaySelected");
+        displaySection.innerText = `You chose: ${selected}`;
+      }
+
+      function displayText() {
+        const inputName = document.querySelector(".inputText").value;
+        const displayText = document.querySelector(".displayText");
+        displayText.innerText = `Your name is: ${inputName}`;
+      }
+    </script>
+  </body>
+</html>
